@@ -49,7 +49,7 @@ static ssize_t hello_store(struct kobject *kobj, struct kobj_attribute *attr, co
 	sscanf(buf,"%d",&hello_value);
 
 	return count;
-	return count;
+//	return count;
 }
 
 static struct kobj_attribute hello_value_attribute = __ATTR(hello_value,
